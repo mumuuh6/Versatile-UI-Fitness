@@ -1,0 +1,238 @@
+@import url('https://fonts.cdnfonts.com/css/miama');
+.banner{
+    width: 100%;
+    height: auto;
+    margin-left: 134px;
+    margin-right: 134px;
+}
+.margin{
+    margin-left: 134px;
+    margin-right: 134px;
+}
+nav>ul>li{
+    list-style: none;
+}
+.fitness{
+color: rgb(230, 83, 60);
+font-family: Inter;
+font-size: 36px;
+font-weight: 800;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
+.navbar,.navbar1{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar1{
+    margin-top: 50px;
+    margin-right: 234px;
+    gap: 100px;
+    
+}
+#menu-toggle{
+    display: none;
+}
+.hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    margin-top: 45px;
+    
+  }
+  .hamburger span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    border-radius: 2px;
+  }
+ul{
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    
+}
+.Bigtext{
+    width: 500px;
+    height: 250px;
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 5rem;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 28px;
+}
+
+#menu-toggle {
+    display: none;
+  }
+  .hamburger {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+.picfix{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 310px;
+}
+.subtext{
+    margin-top: 100px;
+    width: 500px;
+    height: 65px;
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 1rem;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.5px;
+text-align: left;
+
+}
+.text,nav>ul>li>button{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 1rem;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.btn{
+    border-radius: 46px;
+}
+.btn1{
+    background: rgb(230, 83, 60);
+width: 92px;
+height: 38px;
+}
+.buttonclass{
+    margin-top: 22px;
+}
+.btn11{
+    background: rgb(230, 83, 60);
+width: 159px;
+height: 38px;
+}
+.btn2{
+    background-color: black;
+    border: 1px solid rgb(255, 255, 255);
+width: 159px;
+height: 38px;
+}
+.position{
+    box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+backdrop-filter: blur(20px);
+background: rgba(48, 48, 48, 0.54);
+width: 146px;
+height: 68px;
+}
+.position1{
+    display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.round1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+.round{
+    background: red;
+    color: red;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    
+}
+.pos2{
+    position: absolute;
+    bottom: 120px;
+    right: 450px;
+}
+.pos3{
+    position:absolute;
+    top: 250px;
+    right: 140px;
+}
+@media screen and (max-width: 576px) {
+    .navbar1 {
+        display: none; 
+      }
+    
+      .hamburger {
+        display: flex; 
+      #menu-toggle:checked + .hamburger + .navbar1 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+}
+.buttonclass{
+    margin: 0 auto;
+    max-width: 200px;
+    
+}
+.banner{
+    
+    margin-left: 84px;
+    margin-right: 44px;
+}
+.Bigtext{
+    width: 285px;
+    height: 2px;
+    font-size: 48px;
+    margin-top: 1px;
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+.subtext{
+    width: 285px;
+    margin-top: 150px;
+}
+
+.buttonclass{
+    margin-top: 50px;
+    width: 352px;
+    height: 54px;
+    display: flex;
+    
+}
+.btn11,.btn2{
+    width: 169px;
+    height: 54px;
+}
+.picfix{
+    flex-direction: column;
+    
+}
+img{
+width: 353px;
+height: 588px;
+}
+.pos3{
+position: absolute;
+width: 145.91px;
+height: 74.09px;
+left: 284.2px;
+top: 516.6px;
+}
+.pos2{
+    position: absolute;
+width: 155.74px;
+height: 72.58px;
+left: 52px;
+top: 800.38px;
+}
+}
+
