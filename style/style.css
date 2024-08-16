@@ -94,6 +94,15 @@ letter-spacing: 0.5px;
 text-align: left;
 
 }
+.subtext1{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 1rem;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0.5px;
+text-align: center;
+}
 .text,nav>ul>li>button{
     color: rgb(255, 255, 255);
 font-family: Inter;
@@ -166,13 +175,23 @@ justify-content: center;
     right: 140px;
 }
 .secondary-content{
-    max-width: 1044px;
+    max-width: 100%;
+    height: auto;
     margin: 0 auto;
     text-align: center;
 }
 .main-picture{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
+    display: flex;
+    justify-content: space-around;
+    
+}
+.thing{
+    max-width: 231px;
+    margin: 0 auto;
+    text-align: center;
+}
+.circle{
+    border-radius: 50%;
 }
 @media screen and (max-width: 576px) {
     .navbar1 {
@@ -194,8 +213,8 @@ justify-content: center;
 }
 .banner{
     
-    margin-left: 84px;
-    margin-right: 44px;
+    margin-left: 4px;
+    margin-right: 4px;
 }
 .Bigtext{
     width: 285px;
@@ -233,7 +252,7 @@ height: 588px;
 position: absolute;
 width: 145.91px;
 height: 74.09px;
-left: 284.2px;
+right: 90.2px;
 top: 516.6px;
 }
 .pos2{
@@ -242,6 +261,17 @@ width: 155.74px;
 height: 72.58px;
 left: 52px;
 top: 800.38px;
+}
+.margin{
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.main-picture{
+    flex-direction: column;
+}
+.circle{
+    height: 100px;
+    width: 100px;
 }
 }
 
