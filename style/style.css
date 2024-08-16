@@ -165,6 +165,15 @@ justify-content: center;
     top: 250px;
     right: 140px;
 }
+.secondary-content{
+    max-width: 1044px;
+    margin: 0 auto;
+    text-align: center;
+}
+.main-picture{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
 @media screen and (max-width: 576px) {
     .navbar1 {
         display: none; 
