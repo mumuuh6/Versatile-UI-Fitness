@@ -106,6 +106,18 @@ line-height: 14px;
 letter-spacing: 0.5px;
 text-align: left;
 }
+.subtext22{
+    margin-top: 20px;
+    width: 543px;
+    height: 72px;
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 1rem;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 0.5px;
+text-align: left;
+}
 .subtext1{
 color: rgba(255, 255, 255, 0.5);
 font-family: Inter;
@@ -209,6 +221,14 @@ justify-content: center;
     margin: 0 auto;
     text-align: left;
 }
+.secondary-content3{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: left;
+    margin-left: 50px;
+    padding: 25px;
+}
 .main-picture{
     display: flex;
     justify-content: space-around;
@@ -238,6 +258,21 @@ top: 30px;
 }
 .circle{
     border-radius: 50%;
+}
+.row{
+    display: flex;
+
+}
+nav>div>img{
+    width: 323px;
+    height: 218px;
+}
+.color1{
+    background-color: rgba(0, 255, 255, 0.5),url('img/excercise1');
+    
+}
+.width{
+    width: 539px;
 }
 @media screen and (max-width: 576px) {
     .navbar1 {
