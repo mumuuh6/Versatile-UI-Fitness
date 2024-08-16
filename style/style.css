@@ -67,6 +67,18 @@ letter-spacing: 0%;
 text-align: left;
 margin-top: 28px;
 }
+.Bigtext1{
+    width: 303px;
+    height: 116px;
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 3rem;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 4px;
+}
 
 #menu-toggle {
     display: none;
@@ -81,21 +93,21 @@ margin-top: 28px;
     justify-content: space-between;
     margin-right: 310px;
 }
-.subtext{
-    margin-top: 100px;
-    width: 500px;
-    height: 65px;
+
+.subtext2{
+    margin-top: 40px;
+    width: 443px;
+    height: 72px;
     color: rgba(255, 255, 255, 0.5);
 font-family: Inter;
 font-size: 1rem;
 font-weight: 400;
-line-height: 24px;
+line-height: 14px;
 letter-spacing: 0.5px;
 text-align: left;
-
 }
 .subtext1{
-    color: rgba(255, 255, 255, 0.5);
+color: rgba(255, 255, 255, 0.5);
 font-family: Inter;
 font-size: 1rem;
 font-weight: 400;
@@ -124,7 +136,10 @@ height: 38px;
 .buttonclass{
     margin-top: 22px;
 }
-.btn11{
+.buttonclass1{
+    margin-top: 4px;
+}
+.btn11,.btn13{
     background: rgb(230, 83, 60);
 width: 159px;
 height: 38px;
@@ -143,6 +158,14 @@ backdrop-filter: blur(20px);
 background: rgba(48, 48, 48, 0.54);
 width: 146px;
 height: 68px;
+}
+.position2{
+box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+backdrop-filter: blur(20px);
+background: rgba(48, 48, 48, 0.54);
+padding: 60px;
 }
 .position1{
     display: flex;
@@ -180,10 +203,33 @@ justify-content: center;
     margin: 0 auto;
     text-align: center;
 }
+.secondary-content1{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: left;
+}
 .main-picture{
     display: flex;
     justify-content: space-around;
     
+}
+.sizing{
+    width: 443px;
+    height: 290px;
+}
+.main-picture1{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.picfix1{
+border-radius: 18px;
+position: absolute;
+width: 366px;
+height: 312px;
+left: 662px;
+top: 30px;
 }
 .thing{
     max-width: 231px;
@@ -240,6 +286,12 @@ justify-content: center;
     width: 169px;
     height: 54px;
 }
+.btn13{
+    width: 250px;
+    height: 38px;
+    align-items: center;
+    
+}
 .picfix{
     flex-direction: column;
     
@@ -262,6 +314,9 @@ height: 72.58px;
 left: 52px;
 top: 800.38px;
 }
+.secondary-content1{
+    height: 531px;
+}
 .margin{
     margin-left: 4px;
     margin-right: 4px;
@@ -272,6 +327,24 @@ top: 800.38px;
 .circle{
     height: 100px;
     width: 100px;
+}
+.Bigtext1{
+    width: 287px;
+    height: 76px;
+    font-size: 2rem;
+}
+.subtext2{
+    margin-top: 0px;
+    width: 287px;
+    height: 96px;
+    font-size: 1rem;
+}
+.picfix1{
+position: absolute;
+width: 300px;
+height: 170px;
+left: 50px;
+top: 350px;
 }
 }
 
