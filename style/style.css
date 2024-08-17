@@ -40,7 +40,10 @@ text-align: left;
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
-    gap: 100px;
+    
+    height: 38px;
+    align-items:center;
+
 }
 #menu-toggle{
     display: none;
@@ -182,7 +185,7 @@ letter-spacing: 0.5px;
 text-align: center;
 }
 .text,nav>ul>li>button{
-    color: rgb(255, 255, 255);
+color: rgb(255, 255, 255);
 font-family: Inter;
 font-size: 1rem;
 font-weight: 600;
@@ -205,6 +208,9 @@ height: 38px;
 }
 .buttonclass1{
     margin-top: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .btn11,.btn13{
     background: rgb(230, 83, 60);
@@ -263,7 +269,7 @@ justify-content: center;
 .pos3{
     position:absolute;
     top: 100px;
-    right: 0px;
+    right: 40%;
 }
 .secondary-content{
     max-width: 100%;
@@ -375,7 +381,12 @@ text-align: left;
     gap: 10px; 
     /* Space between the two input boxes */
 }
+.big{
+    position: relative;
+    right: 0px;
+    left: 30%;
 
+}
 .side-by-side input {
     flex: 1;
     border-radius: 8px;
@@ -432,14 +443,19 @@ background: rgba(255, 255, 255, 0.1); /* Make both input boxes the same width */
     .navbar1 {
         display: none; 
       }
-    
-      .hamburger {
+.hamburger {
         display: flex; 
-      #menu-toggle:checked + .hamburger + .navbar1 {
-        display: flex;
+        align-items: end;
+        #menu-toggle:checked + .hamburger + .navbar1 {
         flex-direction: column;
         gap: 10px;
-      }
+        }
+}
+.big{
+    left: 0px;
+}
+.position2{
+    padding: 25px;
 }
 .buttonclass{
     margin: 0 auto;
@@ -484,10 +500,7 @@ background: rgba(255, 255, 255, 0.1); /* Make both input boxes the same width */
     margin: 0px;
     
 }
-img{
-width: 353px;
-height: 588px;
-}
+
 .pos3{
 position: absolute;
 width: 145.91px;
