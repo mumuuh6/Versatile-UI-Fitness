@@ -151,6 +151,29 @@ line-height: 14px;
 letter-spacing: 0.5px;
 text-align: left;
 }
+.checkbox-list {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+}
+.checker{
+    display: flex;
+    justify-content: space-around;
+}
+.checkbox-list li {
+    margin: 5px 0; /* Space between items */
+}
+
+.checkbox-list input[type="checkbox"] {
+    margin-right: 10px; /* Space between checkbox and label */
+}
+
+.line {
+    height: 2px; /* Thickness of the line */
+    background-color:rgba(255, 255, 255, 0.5); /* Color of the line */
+    width: 100%; /* Full width of the parent element */
+    margin: 10px 0; /* Space above and below the line */
+}
+
 .subtext22{
     margin-top: 20px;
     max-width: 100%;
@@ -211,6 +234,12 @@ height: 38px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.buttonclass14{
+    margin-top: 4px;
+    display: flex;
+    justify-content: flex-start;
+    
 }
 .btn11,.btn13{
     background: rgb(230, 83, 60);
@@ -551,9 +580,7 @@ top: 350px;
     grid-template-columns: repeat(1,1fr);
     gap: 0;
 }
-.row{
-    display: none;
-}
+
 
 .secondary-content2{
    padding: 0px;
