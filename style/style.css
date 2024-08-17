@@ -181,8 +181,8 @@ line-height: 18px;
 letter-spacing: 0.5px;
 text-align: center;
 }
-.text,nav>ul>li>button,nav>ul>li{
-color: rgb(255, 255, 255);
+.text,nav>ul>li>button{
+    color: rgb(255, 255, 255);
 font-family: Inter;
 font-size: 1rem;
 font-weight: 600;
@@ -195,7 +195,7 @@ text-align: center;
     border-radius: 46px;
 }
 .btn1{
-background: rgb(230, 83, 60);
+    background: rgb(230, 83, 60);
 width: 92px;
 height: 38px;
 }
